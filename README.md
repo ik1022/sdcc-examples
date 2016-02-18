@@ -1,7 +1,7 @@
 SDCC examples
 =============
 
-[![Build Status](https://travis-ci.org/diegoherranz/sdcc-examples.svg?branch=master)](https://travis-ci.org/diegoherranz/sdcc-examples)
+[![Build Status](https://travis-ci.org/ik1022/sdcc-examples.svg?branch=master)](https://travis-ci.org/ik1022/sdcc-examples)
 
 This repository includes code examples to use with [SDCC](http://sdcc.sourceforge.net/), an open source compiler for 8-bit microcontrollers. The examples can help beginners who usually find problems like which headers to include, which parameters to use when compiling and so on.
 
@@ -62,7 +62,7 @@ Up to SDCC 3.4.0, the precompiled version of SDCC worked fine on the Ubuntu 12.0
   - If everything went fine, check that `sdcc -v` works and returns the version number you expect.
 
 ### Continuous Integration (automatic tests)
-This repository is tested automatically on on [Travis-CI](https://travis-ci.org/diegoherranz/sdcc-examples/builds) using the latest 3 SDCC and latest 2 gputils releases to make sure that every example is built without errors on those SDCC and gputils combinations (SDCC and gputils are downloaded and installed on the Travis instance automatically).
+This repository is tested automatically on on [Travis-CI](https://travis-ci.org/ik1022/sdcc-examples/builds) using the latest 3 SDCC and latest 2 gputils releases to make sure that every example is built without errors on those SDCC and gputils combinations (SDCC and gputils are downloaded and installed on the Travis instance automatically).
 
 ### Other tutorials
 On the [SDCC Wiki](http://sdcc.sourceforge.net/mediawiki/index.php/SDCC_tutorial) you can find other tutorials that can help you.
